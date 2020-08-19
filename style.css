@@ -1,0 +1,171 @@
+body{
+    overflow-x: hidden;
+    min-width: 101%;
+}
+
+
+#top_bar{
+    position: relative;
+    top: -55px;
+    left: -4px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+#top_bar > .card:first-child{
+    height: 170px;
+    border: 10px solid #3C5E9B;
+    background-color: #3C5E9B;
+    transform: rotate(-3deg); 
+
+}
+
+
+#profile_pic{
+    width: 13%;
+    position: relative;
+    z-index: 2;
+    top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #BDDEFF;
+}
+
+
+#profile_pic > img{
+    height: 150px;
+}
+
+.profile_circle{
+    background-color: #3C5E9B;
+    position: absolute;
+    top: 125px;
+    height: 35px;
+    width: 35px;
+    right: -40px;
+    border-radius: 100px;
+}
+
+
+#second_bar{
+    position: relative;
+    top: -90px;
+}
+
+
+#profile_info > h3{
+    color: #3C5E9B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+
+h3 + p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #707070;
+}
+
+
+#info_bar > div > span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A8A8A8;
+}
+
+
+#more_info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #707070;
+}
+
+
+div > i {
+    color: #FFC831;
+}
+
+
+#row_1 > div:nth-child(odd){
+    background-color: #BDDEFF;
+}
+
+
+#row_1 > div:nth-child(even){
+    background-color: #3C5E9B;
+}
+
+
+#row_2 > div:nth-child(even){
+    background-color: #BDDEFF;
+}
+
+
+#row_2 > div:nth-child(odd){
+    background-color: #3C5E9B;
+}
+
+
+#prof_bar > div:first-child > div, #project_bar > div:first-child > div, .git_cmt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #707070;
+}
+
+
+.prof_tech_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.prof2_tech_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+
+#project_bar > .row{
+    margin: 60px;
+}
+
+
+.project_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #707070;
+}
+
+
+.proj_sub_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+    color: #5D86B4;
+}
+
+
+.proj_sub_title + .card-body > .card-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #A8A8A8;
+}
+
+
+.cmt_bdy{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
