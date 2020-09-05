@@ -6,7 +6,7 @@ body{
 
 #top_bar{
     position: relative;
-    top: -55px;
+    top: -10px;
     left: -4px;
     z-index: 1;
     overflow: hidden;
@@ -14,10 +14,11 @@ body{
 
 
 #top_bar > .card:first-child{
-    height: 170px;
+    height: 150px;
     border: 10px solid #3C5E9B;
     background-color: #3C5E9B;
-    transform: rotate(-3deg); 
+    padding: 100px 0;
+    transform: skew(0deg,-4deg) translateY(-90px); 
 
 }
 
@@ -26,7 +27,7 @@ body{
     width: 13%;
     position: relative;
     z-index: 2;
-    top: -70px;
+    top: -160px;
     margin-left: auto;
     margin-right: auto;
     border: 10px solid #BDDEFF;
@@ -50,7 +51,7 @@ body{
 
 #second_bar{
     position: relative;
-    top: -90px;
+    top: -130px;
 }
 
 
