@@ -170,3 +170,48 @@ div > i {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.details_bar{
+    background: #C8F2EE;
+    width: 100%;
+    padding: 10px 100px 10px 50px;
+}
+
+
+.info_circle_holder{
+    margin-left: 150px;
+}
+
+
+.info_circle_holder_3{
+    margin-right: 150px;
+}
+
+.info_circle{
+    width: 200px;
+    height:200px; 
+    background: #C8F2EE;
+    border-radius: 50%;
+    border:20px solid;
+    border-color: #06BEB6;
+}
+
+
+.info_circle > p{
+    margin-top: 55px;
+    font-size: 35px
+}
+
+
+.line_1{
+    color:#5D86B4; 
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+
+.line_2{
+    font-size: 25px; 
+    color:#5D86B4
+} 
