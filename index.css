@@ -55,20 +55,36 @@ body {
 }
 
 .divColor {
-  background-image: linear-gradient(
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
     to right,
-    #8692d6 0%,
-    #26d0ce 51%,
-    #8692d6 100%
-  );
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .div1 {
-  background: #26d0ce;
+  background: #8e2de2;
 }
 
-#design {
-  background-image: linear-gradient(to right, #8692d6, #26d0ce);
+.design {
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 30px;
   transform: skewY(10deg);
   margin-bottom: 1%;
@@ -87,7 +103,7 @@ body {
 }
 
 @media (max-width: 900px) {
-  #design {
+  .design {
     height: 20px;
     transform: skewY(15deg);
     margin-top: 1%;
